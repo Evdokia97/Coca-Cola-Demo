@@ -110,6 +110,19 @@ position: absolute;
   width: 280px;
 }
 
+.button2 {
+  background-color: rgb(226, 126, 126);
+  color: white;
+  padding: 16px 18px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+
+  bottom: 23px;
+  right: 28px;
+  width: 250px;
+}
+
 /* The popup chat - hidden by default */
 .chat-popup {
   display: none;
@@ -219,10 +232,27 @@ position: absolute;
       <p id="rou"></p>
          </div>
 
-   </div>
 
-   <h2>Τrucks</h2>
-   <p id="tru"></p>
+         <div class="column">
+           <h2>Τrucks</h2>
+      <p id="tru"></p>
+    </div>
+
+      <div class="column">
+        <h2>Check the trucks</h2>
+        <label for="cars">Choose a truck:</label></p>
+        <select name="cars" id="cars">
+          <option value="Truck 1">Truck 1</option>
+          <option value="Truck 2">Truck 2</option>
+          <option value="Truck 3">Truck 3</option>
+        </select></p>
+        <button class="button2" onclick=(window.location.href="EmploDel.html")>Check</button>
+    </div>
+
+
+       </div>
+
+  </div>
 
   </div>
  </div>
